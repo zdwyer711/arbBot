@@ -1,0 +1,30 @@
+{
+  "name": "arbbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dwyer, Zach",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/contracts": "^5.0.11",
+    "@ethersproject/providers": "^5.0.23",
+    "@ethersproject/solidity": "^5.0.9",
+    "@openzeppelin/contracts": "^3.4.0",
+    "@truffle/contract": "^4.3.8",
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "@uniswap/sdk": "^3.0.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.0.26",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.20",
+    "moment-timezone": "^0.5.33",
+    "numeral": "^2.0.6",
+    "web3": "^1.3.4"
+  }
+}
